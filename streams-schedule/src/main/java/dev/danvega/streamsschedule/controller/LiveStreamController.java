@@ -23,7 +23,7 @@ public class LiveStreamController {
 
     @GetMapping()
     public List<LiveStream> findAll() {
-        return repository.findAll();
+        return null;
     }
 
     @GetMapping("/{id}")
